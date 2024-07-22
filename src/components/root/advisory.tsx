@@ -11,19 +11,17 @@ export default function Advisory() {
           speed={100}
           direction={"right"}
         >
-          {[...Array(10)].map((_, index) => {
-            return (
-              <div
-                className="flex flex-row items-center gap-6 flex-shrink-0 pr-6"
-                key={index}
-              >
-                <h1 className="text-black font-normal whitespace-nowrap text-3xl md:text-4xl lg:text-5xl hover:border-b hover:border-[#F97316]">
-                  <Link href={"/contact"}>Let's Talk</Link>
-                </h1>
-                <img src="./star.svg" alt="" />
-              </div>
-            );
-          })}
+          {[...Array(10)].map((_, index) => (
+            <div
+              className="flex flex-row items-center gap-6 flex-shrink-0 pr-6"
+              key={index}
+            >
+              <h1 className="text-black font-normal whitespace-nowrap text-3xl md:text-4xl lg:text-5xl hover:border-b hover:border-[#F97316]">
+                <Link href={"/contact"}>Let's Talk</Link>
+              </h1>
+              <img src="./star.svg" alt="" />
+            </div>
+          ))}
         </Marquee>
       </div>
     </section>
