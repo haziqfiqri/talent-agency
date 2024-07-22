@@ -13,7 +13,7 @@ export default async function Root() {
       <Brand />
       <Search />
       <Procedure />
-      <Project works />
+      <Project />
       <Advisory />
     </React.Fragment>
   );
