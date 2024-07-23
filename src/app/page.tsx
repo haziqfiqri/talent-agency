@@ -1,19 +1,19 @@
-import Advisory from "@/components/root/advisory";
-import Banner from "@/components/root/banner";
-import Brand from "@/components/root/brand";
-import Procedure from "@/components/root/procedure";
-import Project from "@/components/root/project";
-import Search from "@/components/root/search";
+import Advisory from "@/components/app/advisory";
+import Banner from "@/components/app/banner";
+import Brand from "@/components/app/brand";
+import Discover from "@/components/app/discover";
+import Procedure from "@/components/app/procedure";
+import Project from "@/components/app/project";
+import Search from "@/components/app/search";
 import React from "react";
 
-export default async function Root() {
+export default async function Page() {
   return (
     <React.Fragment>
       <Banner />
       <Brand />
-      <Search />
+      <Discover />
       <Procedure />
-      <Project />
       <Advisory />
     </React.Fragment>
   );

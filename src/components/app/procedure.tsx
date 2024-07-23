@@ -1,17 +1,17 @@
 export default function Procedure() {
   return (
     <section className="font-inter container mx-auto pl-2.5 pr-2.5 pt-16 lg:pt-24 lg:px-10">
-      <div className="flex flex-col gap-10">
+      <div className="flex flex-col gap-14 md:gap-20">
         <div className="flex flex-col">
           <h1 className="font-semibold text-black text-3xl md:text-4xl lg:text-5xl text-center">
-            How It Works
+            Simple Few Steps
           </h1>
         </div>
         <div className="flex flex-col">
           <div className="flex flex-row md:gap-10 lg:gap-20">
-            <div className="hidden md:flex md:flex-row md:w-1/2">
+            <div className="hidden md:flex md:flex-row md:w-1/2 md:h-auto">
               <img
-                className="w-full h-fit object-cover rounded-xl"
+                className="w-full h-full object-cover rounded-xl"
                 src="./misc/discuss.png"
                 alt=""
               />
@@ -60,9 +60,9 @@ export default function Procedure() {
                   </div>
                 ))}
               </div>
-              <div className="hidden lg:flex lg:flex-col lg:mt-auto">
+              <div className="hidden lg:flex lg:flex-col lg:mx-28">
                 <button className="text-center bg-black py-2.5 px-6 rounded-xl text-white">
-                  Book Your Talents{" "}
+                  Contact Us Now{" "}
                 </button>
               </div>
             </div>
@@ -70,7 +70,7 @@ export default function Procedure() {
         </div>
         <div className="flex flex-col lg:hidden">
           <button className="text-center bg-black py-2.5 px-6 rounded-xl text-white">
-            Book Your Talents{" "}
+            Contact Us Now{" "}
           </button>
         </div>
       </div>

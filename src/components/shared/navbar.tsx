@@ -19,14 +19,17 @@ export default function Navbar() {
           <Link href={"/talent"}>Talents</Link>
         </button>
         <button className="hover:cursor-pointer hover:border-b hover:border-black">
-          News
+          Blogs
         </button>
         <button className="hover:cursor-pointer hover:border-b hover:border-black">
-          Showcase
+          Projects
         </button>
       </div>
       <div className="hidden lg:flex lg:flex-row lg:gap-4 lg:items-center lg:text-black lg:text-md lg:font-semibold">
-        <button className="flex flex-row items-center bg-black py-2.5 px-6 rounded-xl text-white">
+        {/* <button className="flex flex-row items-center bg-black py-2.5 px-6 rounded-xl text-white">
+          Reach Us{" "}
+        </button> */}
+        <button className="flex flex-row items-center bg-white py-2.5 px-6 text-black border border-black">
           Reach Us{" "}
         </button>
       </div>

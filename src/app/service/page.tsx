@@ -1,7 +1,7 @@
 import Link from "next/link";
 import React from "react";
 
-export default function Service() {
+export default function Page() {
   return (
     <React.Fragment>
       <h1 className="text-5xl">/service</h1>
