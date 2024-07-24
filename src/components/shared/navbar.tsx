@@ -8,7 +8,7 @@ export default function Navbar() {
           <img src="./logo.svg" className="w-full h-full" />
         </Link>
       </div>
-      <div className="hidden lg:flex lg:flex-row lg:gap-9 lg:items-center lg:text-black lg:text-md lg:font-semibold">
+      <div className="hidden lg:flex lg:flex-row lg:gap-9 lg:items-center lg:text-black lg:text-md lg:font-medium">
         <button className="hover:cursor-pointer hover:border-b hover:border-black">
           <Link href={"/"}>Home</Link>
         </button>
@@ -25,11 +25,8 @@ export default function Navbar() {
           Projects
         </button>
       </div>
-      <div className="hidden lg:flex lg:flex-row lg:gap-4 lg:items-center lg:text-black lg:text-md lg:font-semibold">
-        {/* <button className="flex flex-row items-center bg-black py-2.5 px-6 rounded-xl text-white">
-          Reach Us{" "}
-        </button> */}
-        <button className="flex flex-row items-center bg-white py-2.5 px-6 text-black border border-black">
+      <div className="hidden lg:flex lg:flex-row lg:gap-4 lg:items-center lg:text-black lg:text-md lg:font-medium">
+        <button className="flex flex-row items-center bg-black py-2.5 px-6 rounded-xl text-white">
           Reach Us{" "}
         </button>
       </div>
